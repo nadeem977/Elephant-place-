@@ -1,0 +1,91 @@
+.blue {
+    width: 100%;
+    height: 280px;
+    background: #005494;
+    position: absolute;
+    top: 0%;
+    z-index: -20;
+    text-align: center;
+}
+
+.img {
+    margin: 30px;
+}
+
+.main-box {
+    height: 317px;
+    width: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10% auto;
+}
+
+.center {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pass {
+    width: 400px;
+    margin: 10px auto;
+    border-bottom: 2px solid #005494;
+
+}
+
+#address {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 0px;
+}
+
+.sigbtn {
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #005494;
+    border-radius: 8px;
+    border: 0px;
+    margin: 20px 0px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.sigbtn:hover{
+    color: white;
+}
+@media (max-width:1000px) {
+    .main-box {
+        margin: 33% auto;
+    }
+}
+
+@media (max-width:700px) {
+    .main-box {
+        width: auto;
+        height: auto;
+    }
+
+    .pass {
+        width: auto;
+    }
+
+    #address {
+        width: auto;
+    }
+
+    .sigbtn {
+        width: auto;
+    }
+
+}

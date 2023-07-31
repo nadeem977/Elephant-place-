@@ -1,0 +1,390 @@
+.btn {
+    height: 50px;
+    background: #005494;
+    box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
+    border-radius: 10px;
+    width: 120px;
+    color: white;
+    outline: none;
+    border-radius: 5px 10px 10px 5px;
+}
+
+.btn:hover {
+    background: #005494;
+    color: white;
+}
+
+.btn-2 {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.sec-color {
+    background: #F4F9FF;
+    height: 90px;
+    width: 100%;
+}
+
+.nav-link {
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* header-end================================================= */
+
+.cards {
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    justify-content: space-between;
+}
+
+.text-div-1 {
+    padding: 0px 20px;
+}
+
+.cards-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-div-1 p {
+    font-size: 11px;
+    color: #969696;
+    font-weight: 500;
+    margin: 0px !important;
+}
+
+.text-div-1 small {
+    font-size: 11px;
+    color: #969696;
+    font-weight: 500;
+}
+
+.card-body small {
+    font-size: 10px;
+    color: #969696;
+}
+
+.spn-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+}
+
+.spn-flex small {
+    font-size: 14px;
+    font-weight: 600 !important;
+    color: black;
+}
+
+.Active-div {
+    width: 310px;
+}
+
+.Active-div span {
+    font-size: 11px;
+    color: #969696;
+    font-weight: 500;
+}
+
+.spanbtn {
+    justify-content: space-between;
+
+}
+
+.Active-div p {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.active-rent {
+    width: 121px;
+    color: white;
+    height: 41px;
+    background: #0BD537;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Rantel a{
+    text-decoration: none;
+    color: white;
+}
+.Rantel {
+    width: 150px;
+    height: 60px;
+    background: #005494;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.btn-div {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.btn-div a {
+    text-decoration: none;
+    color: white;
+    background-color: #005494;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.tab-content>.active {
+    outline: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-pills .nav-link {
+    margin: 28px 0px !important;
+}
+
+.nav-pills {
+    height: 80px;
+}
+
+.nav-pills {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    border-bottom: 2px solid #005494;
+    background: transparent;
+    color: #263238;
+    border-radius: 0;
+    outline: none;
+}
+
+/* footer==================================== */
+
+.sectoon-5 {
+    width: 100%;
+}
+
+.text-5 {
+    display: flex;
+    justify-content: space-around;
+    background: #ECF7FF;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 379px;
+}
+
+.sec-5-box-1 {
+    width: 30%;
+    padding: 7% 20px;
+}
+
+.sec-5-box-1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202122;
+    margin: 20px 0px;
+}
+
+.sec-5-box-1 .bi {
+    padding: 10px 12px;
+    border-radius: 42px;
+    transition: 0.4s;
+}
+
+.sec-5-box-1 .bi:hover {
+    background-color: #005494;
+    color: white;
+}
+
+.sec-5-box-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 10% 20px;
+}
+
+.sec-5-box-3 {
+
+    padding: 7% 20px;
+}
+
+.sec-5-box-2 a {
+    text-decoration: none;
+    color: #202122;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.sec-5-box-3 a {
+    text-decoration: none;
+    color: #202122;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.copy {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+    background: rgba(0, 84, 148, 0.06);
+}
+
+/* @media-screen========================= */
+@media (max-width:1200px) {
+
+    .btn {
+        width: 90px;
+    }
+
+    .form-control {
+        width: 280px !important;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .text-1 {
+        width: auto;
+    }
+
+    .text-2 {
+        width: auto;
+    }
+
+    .text-3 {
+        width: auto;
+    }
+
+    .text-4 {
+        width: auto;
+    }
+
+    .section-2 .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-4 .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Active-div {
+        width: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .text-5 {
+        display: flex;
+        flex-direction: column !important;
+        height: auto;
+    }
+
+    .sec-5-box-1 {
+        width: 89%;
+        margin: auto;
+    }
+
+    .sec-5-box-2 {
+        margin: auto;
+        width: 80%;
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .text-div-1 {
+        padding: 0px;
+    }
+
+    .cards-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .sec-5-box-1 {
+        padding: 7% 10px;
+    }
+
+    .sec-5-box-2 a {
+        font-size: 13px;
+    }
+
+    .sec-5-box-2 a {
+        font-size: 13px;
+    }
+
+    .form-control {
+        width: 150px !important;
+    }
+
+    .btn {
+        width: 72px;
+    }
+
+    .sec-5-box-3 {
+        padding: 0px;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Rantel {
+        margin: 10px 0px;
+    }
+
+    .cards {
+        margin-top: 40% !important;
+    }
+
+    .nav-pills .nav-link {
+        margin: 0px !important;
+    }
+
+    .btn-div a {
+        font-size: 13px;
+    }
+
+    .Rantel {
+        width: 120px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,140 @@
+.blue {
+    width: 100%;
+    height: 280px;
+    background: #005494;
+    position: absolute;
+    top: 0%;
+    z-index: -20;
+text-align: center;
+}
+.img{
+ margin: 30px;
+}
+.main-box {
+    height: 517px;
+    width: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10% auto;
+}
+
+.center {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Address {
+    width: 400px;
+    border-bottom: 2px solid #005494;
+    margin: 10px auto;
+}
+
+.pass {
+    width: 400px;
+    margin: 10px auto;
+    border-bottom: 2px solid #CCCCCC;
+
+}
+
+#address {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 0px;
+}
+
+.for {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin: 5px 0px;
+}
+
+.sigbtn {
+    height: 59px;
+    width: 450px;
+    background: #005494;
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+    font-weight: 500;
+
+}
+
+.icon {
+    text-align: center;
+    margin: 20px;
+}
+
+.icon .bi {
+    padding: 5px 30px;
+    border: 1px solid #ECEEF0;
+    border-radius: 4px;
+    color: #005494;
+    transition: 0.4s;
+}
+
+.bi:hover {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.dont {
+    margin: 10px 0px;
+    font-weight: 500;
+    color: black;
+}
+
+
+@media (max-width:1000px) {
+    .main-box{
+        margin: 33% auto;
+    }
+}
+
+
+@media (max-width:700px) {
+    .main-box {
+        width: auto;
+        height: auto;
+    }
+
+    .pass {
+        width: auto;
+    }
+
+    .Address {
+        width: auto;
+    }
+
+    .sigbtn {
+        width: auto;
+    }
+
+    #address {
+        width: auto;
+        height: auto;
+    }
+
+    .icon .bi {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+
+
+@media (max-width:350px) {
+    .mx-4 {
+        display: none;
+    }
+}

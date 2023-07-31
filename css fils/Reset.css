@@ -1,0 +1,129 @@
+
+.blue {
+    width: 100%;
+    height: 280px;
+    background: #005494;
+    position: absolute;
+    top: 0%;
+    z-index: -20;
+text-align: center;
+}
+.img{
+ margin: 30px;
+}
+.main-box {
+    height: 430px;
+    width: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10% auto;
+}
+
+.center {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pass {
+    width: 400px;
+    margin-top: 5px;
+    border-bottom: 2px solid #CCCCCC;
+
+}
+
+#address-1 {
+    width: 166px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 0px;
+}
+#address {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 0px;
+}
+hr{
+    margin: none !important;
+}
+#address-2 {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding: 0px 10px;
+    border: 0px;
+}
+.for {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin: 5px 0px;
+}
+
+.sigbtn {
+    height: 59px;
+    width: 450px;
+    background: #005494;
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+    font-weight: 500;
+    margin: 30px 0px;
+
+}
+
+
+@media (max-width:1000px) {
+    .main-box{
+        margin: 33% auto;
+    }
+}
+
+@media (max-width:600px) {
+    .main-box {
+        width: auto;
+        height: auto;
+    }
+
+    .pass {
+        width: auto;
+    }
+    #address-2 {
+        width:auto;
+    }
+    #address-1 {
+        width: auto;
+    }
+    
+    .sigbtn {
+        width: auto;
+    }
+
+    #address {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width:380px) {
+
+      #address-1 {
+        width: 163;
+        height: auto;
+    }
+    #address-2 {
+        width: auto;
+        height: auto;
+    }
+
+}
